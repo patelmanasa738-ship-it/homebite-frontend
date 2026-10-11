@@ -1,0 +1,7 @@
+{
+  "name": "HomeBite – A Social Marketplace for Homemade Food",
+  "description": "Taste the Love of Home Cooking. Discover fresh, homemade meals crafted with love by passionate home cooks in your neighborhood.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,25 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Backend Build & IDE Files
+backend/target/
+backend/.mvn/
+backend/*.iml
+backend/.idea/
+backend/.project
+backend/.classpath
+backend/.settings/
+
+# Frontend Node Files
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Database & Environment Secrets
+*.env
+*.log
