@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Get API URL from Vite environment or default to local Spring Boot 8080
-export const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
+const rawApiUrl = import.meta.env.VITE_API_URL || 'https://homebite-backend-5.onrender.com/api';
+export const API_BASE_URL = rawApiUrl.endsWith('/api') ? rawApiUrl : `${rawApiUrl.replace(/\/$/, '')}/api`;
 
 const api = axios.create({
   baseURL: API_BASE_URL,

@@ -92,6 +92,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         
         List<String> originPatterns = new ArrayList<>();
+        originPatterns.add("https://homebite-frontend-5hqd-fiur6tlro-manasa-808d.vercel.app");
         originPatterns.add("https://*.vercel.app");
         originPatterns.add("http://localhost:*");
         
